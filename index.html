@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <style>
+            body{
+                text-align:center;
+            }
+            
+            .header{
+                text-align:center;
+                font-family:"Book Antiqua" "Times New Roman" serif;
+                margin:0em;   
+            }
+            
+            #lname{
+                color:red;
+                background-color:white;
+            }
+            #tagline{
+                font-weight:500;
+            }
+            #headshot{
+                height:350px;
+                width:350px;
+            }
+        </style>           
+
+    </head>
+    <body>
+        <!--Nav bar-->
+        <?php>
+            include_once('navbar.php');
+        </php>
+
+        <div id='header'>
+            <hr/>
+            <h1 class='header'>Christopher <span id='lname'>Puzzo</span></h1>
+            <h2 class='header' id='tagline'><i>Engineer, Programmer, Musician</i></h2>
+            <hr/>
+        </div>
+        
+        <div>
+            <img id='headshot' src='placeholder-headshot.jpg' alt=''/>
+        </div>
+    </body>
+</html>

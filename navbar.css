@@ -1,0 +1,48 @@
+.twoLine{
+    display:inline-block;
+    line-height:1.5em;
+    vertical-align:middle;
+}
+.oneLine{
+    height:3em;
+    line-height:3em;
+    vertical-align:middle;
+}
+
+#navbar{
+    display:inline-block;
+    width:100%;
+}
+
+#navlist li{
+    list-style-type:none;
+    float:left;
+    display:inline-block;
+    list-style-position:inside;
+
+    padding-right:1em;
+    padding-left:1em;
+
+    height:3em;          
+    width:5em;
+    text-align:center;
+
+    background-color:white;
+}
+
+#navlist li a{
+    font-weight:600;
+    display:block;
+    vertical-align:middle;
+}
+#navlist li a:link{
+    text-decoration:none;
+    color:red;
+}
+#navlist li a:visited{
+    color:red;
+}
+
+#navlist li a:hover{
+    font-size:1.1em;
+}
