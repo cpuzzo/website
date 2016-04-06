@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset='UTF-8'>
+        <meta name="description" content="Professional Site of Christopher Puzzo">
+        <meta name="author" content="Christopher Puzzo">
+        <title>Christopher Puzzo</title>
+        
         <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link rel="stylesheet" type="text/css" href="navbar.css"/>
+
+        
         <style>
-            body{
-                text-align:center;
-            }
+            .centered{
+                display: block;
+                text-align:center;}
             
             .header{
                 text-align:center;
@@ -21,17 +29,21 @@
                 font-weight:500;
             }
             #headshot{
+                float:left;
+            }
+            
+            #headshot img{
                 height:350px;
                 width:350px;
+                margin-right:20px;
+                margin-bottom:50px;
             }
         </style>           
 
     </head>
     <body>
         <!--Nav bar-->
-        <?php>
-            include_once('navbar.php');
-        </php>
+        <nav id='navbar'></nav>
 
         <div id='header'>
             <hr/>
@@ -40,8 +52,13 @@
             <hr/>
         </div>
         
-        <div>
-            <img id='headshot' src='placeholder-headshot.jpg' alt=''/>
+        <div id='headshot'>
+            <img src='placeholder-headshot.jpg' alt=''/>
         </div>
+        <div>
+            <h3 class='centered'>About Me</h3>
+            <p>I am currently a senior finishing up my Bachelor's of Science degree in Chemical Engineering and Physics at Northeastern University in Boston, MA. Beyond the knowledge typically expected of a chemical engineer, I have extensive experience with programming, specifically in Python, PHP, and JavaScript, and HTML/CSS (I made this site from scratch). <br/><br/> Please take some time to look around my site, where you will find my resume (including a downloadable PDF), writing and code examples, and some of the projects I have completed or am currently working on. If you would like to contact me, please refer to the "Contact" portion of this site.<br/><br/><span class='centered'>Thanks!</span></p>
+        </div>
+        <script src='navbar.js'></script>
     </body>
 </html>
