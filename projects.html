@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <link rel=stylesheet type="text/css" href="navbar.css"/>
         <link rel=stylesheet type="text/css" href="main.css"/>
@@ -8,10 +8,57 @@
         <meta name="author" content="Christopher Puzzo">
         <title>Projects</title>
         
+        <style>
+            .project-title{
+                color:green;
+                margin-bottom:0;
+                margin-left:0;
+            }
+            h4{
+                margin:0;
+            }
+            .collaborators{
+                margin:0;
+                list-style-type:none;
+            }
+            .tagline{
+                font-style:oblique;
+                margin-top:0;
+            }
+        </style>
+        
     </head>
     <body>
         <nav id='navbar'></nav>
-
+        <div class='container'>
+            
+            <div class='item'>
+                <h2 class='project-title'>ReNuclear:</h2> 
+                <p class='tagline'>Pyroprocessing of Spent Nuclear Fuel in a Molten Salt Breeder Reactor</p>
+                <h4>Collaborators:</h4>
+                <ul class='collaborators'>
+                    <li>Daniel Kelly</li>
+                    <li><a href="david-hurt.com">David Hurt</a></li>
+                    <li><a href="thomasnigl.com">Thomas Nigl</a></li>
+                    <li>George Winter</li>
+                </ul>
+                <p class='description'></p>
+            
+            
+            </div>
+            <hr/>
+            <div class='item'>
+                <h2 class='project-title'>Placeholder</h2> 
+                <p class='tagline'>Placeholder</p>                
+            </div>
+            <hr/>
+            <div class='item'>
+                <h2 class='project-title'>Placeholder</h2> 
+                <p class='tagline'>Placeholder</p> 
+            </div>
+            <hr/>
+        </div>
+        
         <script src='navbar.js'></script>
     </body>
 </html>
