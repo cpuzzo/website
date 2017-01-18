@@ -1,4 +1,4 @@
-document.getElementById('navbar').innerHTML = '<div style="height:4em;"><hr/>' +
+document.getElementById('navbar').innerHTML = '<hr/><div id="navbar" style="height:4em;width:100%;max-width:50em;">' +
     '<ul id="navlist">' +
     '<li><span class="oneLine"><a href="../index.html">Home</a></span></li>' +
     '<li><span class="oneLine"><a href="../puzzo_resume.html">Resume</a></span></li>' +

@@ -12,6 +12,7 @@
 #navbar{
     display:inline-block;
     width:100%;
+    text-align: center;
 }
 
 #navlist li{

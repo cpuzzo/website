@@ -1,0 +1,1 @@
+document.getElementById('footer').innerHTML = '<hr/><div id="footer">ASDFJADSDFJAJDSJDFJSJDDFJSDF</div>';
